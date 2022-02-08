@@ -1,0 +1,83 @@
+:root {
+  --Very-Dark-Grayish-Blue: hsl(217, 19%, 35%);
+  --Desaturated-Dark-Blue: hsl(214, 17%, 51%);
+  --Grayish-Blue: hsl(212, 23%, 69%);
+  --Light-Grayish-Blue: hsl(210, 46%, 95%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope";
+  font-size: 13px;
+  max-height: 100vh;
+  /* margin: 100px; */
+  /* max-width: 1440px; */
+  /* padding: 100px; */
+  padding: 256px 354px 256px 354px;
+
+}
+
+main {
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+/*   max-width: 500px; */
+  /* padding: 3rem; */
+  /* border: solid; */
+  justify-content: center;
+  justify-items: center;
+  /* padding: 256px 354px; */
+  background-color: var(--Light-Grayish-Blue);
+  gap: 2rem;
+}
+
+.left {
+}
+
+.right {
+  display:flex;
+  flex-direction: column;
+
+}
+
+.right-name {
+  display: flex;
+  gap: 1em;
+}
+
+.left-image_furn {
+ /* max-width: 285px; */
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.name-image {
+  width: 100%;
+  max-width: 42px;
+  border-radius:50%;
+}
+
+.share-img {
+  max-width:20px;
+  width:100%
+}
+
+#myBtn {
+  width: 100%;
+    max-width: 30px;
+    border-radius: 50%;
+}
+
+.info-title {
+  font-size: 20px;
+}
+
+.michelle {
+  display: flex;
+}
